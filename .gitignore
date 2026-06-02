@@ -55,3 +55,9 @@ M4/data/raw/*.xlsx
 M4/plots/*.png
 M4/plots/*.jpg
 M4/plots/*.jpeg
+
+
+# generated plots
+aggregation/plots/*.png
+aggregation/plots/*.jpg
+aggregation/plots/*.jpeg
