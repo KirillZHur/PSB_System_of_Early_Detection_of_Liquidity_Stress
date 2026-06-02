@@ -34,11 +34,24 @@ dist/
 M1/data/raw/*.xlsx
 M1/data/raw/*.xls
 M1/data/raw/*.csv
-
+M2/data/raw/*.xml
+M2/generate_plots_demo.py
 
 # plots
 M1/plots/*.png
 M1/plots/*.jpg
 M1/plots/*.jpeg
+M2/plots/*.png
+
+# M4
+
+# raw data
+M4/data/raw/*.html
+M4/data/raw/*.csv
+M4/data/raw/*.xlsx
 
 
+# plots
+M4/plots/*.png
+M4/plots/*.jpg
+M4/plots/*.jpeg
