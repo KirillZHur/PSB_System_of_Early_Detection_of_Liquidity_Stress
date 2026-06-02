@@ -2,7 +2,7 @@ import time
 import requests
 from pathlib import Path
 from config import MINFIN_URL_TEMPLATE, REQUEST_TIMEOUT, REQUEST_RETRIES, USER_AGENT, CACHE_DIR
-from utils import logger, parse_date, format_date_for_url
+from utils import logger, format_date_for_url
 
 def fetch_minfin_page(year: int, date_str: str, use_cache: bool = True) -> str:
     url = MINFIN_URL_TEMPLATE.format(year=year, date=date_str)

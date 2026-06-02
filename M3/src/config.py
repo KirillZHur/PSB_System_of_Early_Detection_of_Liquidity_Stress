@@ -22,3 +22,6 @@ for d in [DATA_DIR, OUTPUT_DIR, CACHE_DIR]:
 OUTPUT_CSV = OUTPUT_DIR / "auctions_enriched.csv"
 COVER_RATIO_PLOT = OUTPUT_DIR / "cover_ratio.png"
 MAD_SCORES_PLOT = OUTPUT_DIR / "mad_scores.png"
+
+# Флаг для принудительного использования тестовых данных (если парсинг не удался)
+USE_FALLBACK_DATA = True
